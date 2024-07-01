@@ -15,7 +15,7 @@ variable "instance_ami" {
 
 variable "instance_key_name" {
   description = "An Existing Keypair to be used for the instances"
-  default     = "server-key"
+  default     = "Server-key"
 }
 
 variable "instance_subnet_id" {
