@@ -64,4 +64,21 @@ pipeline {
         
 
     }
+    post {
+        success {
+            emailext body: "Build ${currentBuild.fullDisplayName} succeeded",
+                     subject: "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - Successful",
+                     to: 'gasjofi@yahoo.com',
+                     attachLog: true
+        }
+        failure {
+            emailext body: "Build ${currentBuild.fullDisplayName} failed",
+                     subject: "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - Failed",
+                     to: 'gasjofi@yahoo.com',
+                     attachLog: true
+        }
+        
+        
+        
+    }
 }
