@@ -15,13 +15,13 @@
     "name": "continuous-integration-pipline",
     "repo": "https://github.com/KofiGasu/springboot-app-ci-cd.git",
     "branch": "main",
-    "jenkinsfile": "continuous-integration-continuous-integration/Jenkinsfile"
+    "jenkinsfile": "continuous-integration/Jenkinsfile"
   },
   {
-    "name": "continuous-integration-continuous-integration-pipline",
+    "name": "continuous-integration-continuous-delivery-pipline",
     "repo": "https://github.com/KofiGasu/springboot-app-ci-cd.git",
     "branch": "main",
-    "jenkinsfile": "continuous-integration-continuous-integration/Jenkinsfile"
+    "jenkinsfile": "continuous-integration-continuous-delivery/Jenkinsfile"
   }
   
   
