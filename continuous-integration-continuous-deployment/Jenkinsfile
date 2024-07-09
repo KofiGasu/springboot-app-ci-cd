@@ -12,7 +12,7 @@ pipeline {
         string(name: 'GITHUB_CREDENTIAL', defaultValue: 'github_creds', description: 'Github access credentials id')
         string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/KofiGasu/springboot-app-ci-cd.git', description: 'Github repository url')
         string(name: 'GITHUB_BRANCH', defaultValue: 'main', description: 'Github branch for your build')
-        string(name: 'SONARQUBE_SERVER_NAME', defaultValue: 'sonarqube_creds', description: 'Name for your sonarqube server')
+        string(name: 'SONARQUBE_SERVER_NAME', defaultValue: 'sonarqube_server', description: 'Name for your sonarqube server')
         string(name: 'NEXUS_URL', defaultValue: '3.90.140.95:8081', description: 'Your Nexus URL')
         string(name: 'NEXUS_CREDENTIAL', defaultValue: 'jenkins_nexus_creds', description: 'Your Nexus Credentials')
         string(name: 'REMOTE_USER', defaultValue: 'ec2-user', description: 'Remote server username')
