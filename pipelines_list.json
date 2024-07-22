@@ -28,8 +28,13 @@
     "repo": "https://github.com/KofiGasu/springboot-app-ci-cd.git",
     "branch": "main",
     "jenkinsfile": "continuous-deployment/Jenkinsfile"
+  },
+  {
+    "name": "continuous-integration-continuous-deployment-pipline",
+    "repo": "https://github.com/KofiGasu/springboot-app-ci-cd.git",
+    "branch": "main",
+    "jenkinsfile": "continuous-integration-continuous-deployment/Jenkinsfile"
   }
-  
   
 ]
 
